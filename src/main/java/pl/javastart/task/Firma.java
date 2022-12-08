@@ -13,7 +13,7 @@ public class Firma {
     public void wyswietlPodsumowanie() {
         double sumaPrzychodow = zsumujPrzychody();
 
-        System.out.printf("======= Firma: %s ===========\n", nazwa);
+        System.out.printf("======= Firma: %s =======\n", nazwa);
         System.out.printf("Forma opodatkowania: %s\n", "TODO");
         System.out.printf("Suma przychodów: %.2f zł\n", sumaPrzychodow);
         System.out.printf("Suma wydatków: %.2f zł\n", zsumujWydatki());
@@ -30,10 +30,9 @@ public class Firma {
     }
 
     public void dodajPrzychod(String nazwa, double wartosc) {
-        // TODO
+
     }
 
     public void dodajWydatek(String nazwa, double wartosc) {
-        // TODO
     }
 }
