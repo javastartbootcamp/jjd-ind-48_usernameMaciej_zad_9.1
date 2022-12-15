@@ -15,5 +15,11 @@ public class Main {
         janNowakServices.dodajPrzychod("Programowanie", 15_000);
         janNowakServices.dodajWydatek("Energetyki", 200);
         janNowakServices.wyswietlPodsumowanie();
+
+        Firma burakDieta = new Firma("Burak Dieta", new SkalaPodatkowa());
+
+        burakDieta.dodajPrzychod("Jedzenie", 50_000);
+        burakDieta.dodajWydatek("Prąd, gaz", 15_000);
+        burakDieta.wyswietlPodsumowanie();
     }
 }
